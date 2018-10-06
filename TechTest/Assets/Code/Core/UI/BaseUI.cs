@@ -13,7 +13,7 @@ public class BaseUI : MonoBehaviour
         }
         else
         {
-
+            anim.SetBool("Show", true);
         }
     }
     protected void Hide()
@@ -24,7 +24,7 @@ public class BaseUI : MonoBehaviour
         }
         else
         {
-
+            anim.SetBool("Show", false);
         }
     }
 }
